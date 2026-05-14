@@ -1,0 +1,10 @@
+# Start with the official MySQL lunchbox
+FROM mysql:8.0
+
+# Give the database a name
+ENV MYSQL_DATABASE=movie_db
+# Set a simple password (Don't do this in real life!)
+ENV MYSQL_ROOT_PASSWORD=password
+
+# Any SQL files we put in this folder run automatically when the box opens
+# COPY ./setup.sql /docker-entrypoint-initdb.d/

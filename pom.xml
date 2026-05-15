@@ -1,15 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  
   <groupId>com.movie</groupId>
   <artifactId>movie-tickets</artifactId>
   <packaging>war</packaging>
   <version>1.0.0</version>
   <name>Movie Ticket App</name>
+  
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
+
   <distributionManagement>
     <repository>
       <id>nexus</id>
@@ -17,6 +20,7 @@
       <url>http://98.81.97.83:8081/repository/movie-repo/</url>
     </repository>
   </distributionManagement>
+
 </project>
   <!-- ... keep your existing top part ... -->
 

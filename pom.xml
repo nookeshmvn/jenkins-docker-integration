@@ -10,6 +10,13 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Nexus Repository</name>
+      <url>http://98.81.97.83:8081/repository/movie-repo/</url>
+    </repository>
+  </distributionManagement>
 </project>
   <!-- ... keep your existing top part ... -->
 

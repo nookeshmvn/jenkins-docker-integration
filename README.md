@@ -20,3 +20,21 @@ This project demonstrates a modern, fully automated DevOps workflow. It features
 5. **Containerization (Docker):** * A MariaDB database image is built and started.
    * The Java application is wrapped inside a Tomcat 9 Docker image.
 6. **Deployment:** The old containers are wiped, and the new containers are spun up and linked together on port 80.
+
+## 📸 Project Snapshots
+
+### 1. The Live Application
+Here is the final Dockerized web application running live on the AWS EC2 instance.
+![The Result](Screenshorts/The%20Result.png)
+
+### 2. The CI/CD Pipeline Engine
+Our fully automated Jenkins declarative pipeline showing all green stages from code checkout to deployment.
+![The Engine](Screenshorts/The%20Engine.png)
+
+### 3. Code Quality & Security
+The SonarQube quality gate passing the code with zero bugs, zero vulnerabilities, and zero code smells.
+![The Security](Screenshorts/The%20Security.png)
+
+### 4. Artifact Vault
+The compiled Java `.war` file safely versioned and stored in the Sonatype Nexus repository.
+![The Storage](Screenshorts/The%20Storage.png)

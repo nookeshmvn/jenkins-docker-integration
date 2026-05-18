@@ -21,7 +21,8 @@
     </repository>
   </distributionManagement>
 
- <build>
+  <build>
+    <finalName>movie-tickets</finalName>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
